@@ -12,5 +12,5 @@ async function getQuote(url) {
 getQuote(api_url);
 
 function tweetQuote() {
-  window.open(`https://twitter.com/intent/tweet?text=${quote.innerText} + ---- By - ${author.innerText}` , "Tweet window" , "width=500, height=300") ;
+  window.open(`https://twitter.com/intent/tweet?text=${quote.innerText} + - by - ${author.innerText}` , "Tweet window" , "width=500, height=300") ;
 }
